@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:konnect/screens/measure_widget_size.dart';
 import 'package:konnect/screens/on_boarding.dart';
 
 void main() {
@@ -13,6 +14,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: OnBoarding(),
+      // home: PixelPerfect(),
+      // home: MeasureWidgetSize(),
     );
   }
 }
