@@ -5,6 +5,10 @@ import 'package:konnect/widgets/text.dart';
 import 'package:pixel_perfect/pixel_perfect.dart';
 
 // Using flutter_screenutil package for responsiveness in all screens.
+// Scale factor with text (font size) = sp
+// width based pixel = w
+// radius based pixel = r
+
 void main() {
   runApp(const MyApp());
 }
